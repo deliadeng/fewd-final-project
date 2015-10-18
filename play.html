@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Count My Rice" content="Test how well you've learnt to count from 1 - 10 in Chinese by counting my rice!">
+
+    <title>Count My Rice</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <h1 class="logo">Count My Rice</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="learn.html">Learn</a></li>
+                    <li><a href="play.html">Play</a></li>
+                    <li><a href="login.html">Log In</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="play">
+        <h1>Can you count my rice?</h1>
+
+        <div id="ricebowls">
+            <!-- img: randomised image that shows different amounts of bowls of rice -->
+            <!--
+            <img src="#" alt="1 bowl of rice">
+            <img src="#" alt="2 bowls of rice">
+            <img src="#" alt="3 bowls of rice">
+            <img src="#" alt="4 bowls of rice">
+            <img src="#" alt="5 bowls of rice">
+            <img src="#" alt="6 bowls of rice">
+            <img src="#" alt="7 bowls of rice">
+            <img src="#" alt="8 bowls of rice">
+            <img src="#" alt="9 bowls of rice">
+            <img src="#" alt="10 bowls of rice">
+-->
+            <img id="transparentimg" src="img/transparentimg.png" alt="transparent image">
+
+        </div>
+
+        <div class="quiz">
+            <h2>How many bowls of rice?</h2>
+            <div id="choices">
+                <!-- <p> randomise p option, replace this with choicesElements from js -->
+                <p class="clickhere"><a href="#show-this-on-click">Click here to see if you got it right!</a></p>
+                
+                <img class="hide" id="show-this-on-click" src="img/method-1.jpg" alt="A table of Chinese number characters">
+
+                <!-- see http://api.jquery.com/slice/ , can hide these with js -->
+            </div>
+<!--
+             javascript: pops up 'Right' / 'Wrong' 
+            <h4></h4>
+            <h4></h4>
+-->
+        </div>
+<!--
+
+        <h3 id="playagain">Play Again!</h3>
+-->
+
+        <!--            <p class="readmore"><a href="#show-this-on-click">Read more &gt;</a></p>-->
+
+    </div>
+
+    <footer>
+        <h5 class="logo">Count My Rice</h5>
+        <ul>
+            <li>
+                <a href="#"><img src="img/facebook.png" alt="Twitter logo"> </a>
+            </li>
+            <li>
+                <a href="#"><img src="img/twitter.png" alt="Facebook logo"> </a>
+            </li>
+            <p class="copyright">Copyright 2015. Count My Rice.</p>
+<!--        <small class="copyright">Copyright 2015. Count My Rice.</small>-->
+        </ul>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/play.js"></script>
+
+</body>
+
+</html>
